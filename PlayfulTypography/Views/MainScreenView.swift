@@ -54,17 +54,19 @@ struct MainScreenView: View {
     
     
     @State var editableText = """
-You can edit text!
+텍스트를 수정할 수 있어요!
 
-Lorem ipsum dolor sit amet, ad eos putant complectitur necessitatibus, ad pri partem indoctum vulputate, dictas omnesque explicari id has. Vis dico paulo efficiendi in. Doctus nusquam at eam, timeam aliquip impedit quo eu. Alii nusquam quaerendum ius id, per ei epicuri mnesarchum. Case dolor scaevola ex nam.
+이 헌법시행 당시에 이 헌법에 의하여 새로 설치될 기관의 권한에 속하는 직무를 행하고 있는 기관은 이 헌법에 의하여 새로운 기관이 설치될 때까지 존속하며 그 직무를 행한다. 모든 국민은 직업선택의 자유를 가진다. 법관은 탄핵 또는 금고 이상의 형의 선고에 의하지 아니하고는 파면되지 아니하며, 징계처분에 의하지 아니하고는 정직·감봉 기타 불리한 처분을 받지 아니한다. 통신·방송의 시설기준과 신문의 기능을 보장하기 위하여 필요한 사항은 법률로 정한다. 헌법개정안은 국회가 의결한 후 30일 이내에 국민투표에 붙여 국회의원선거권자 과반수의 투표와 투표자 과반수의 찬성을 얻어야 한다.
 
-Cu tractatos petentium per, tollit assentior eam ex. Has cu rationibus inciderint, in tempor ocurreret qui. Movet legendos deseruisse eos ut, id odio tale perfecto vix. Brute apeirian suavitate at mel, ne quis tritani duo. Eam in congue audire periculis.
+국가는 과학기술의 혁신과 정보 및 인력의 개발을 통하여 국민경제의 발전에 노력하여야 한다. 국회의원은 그 지위를 남용하여 국가·공공단체 또는 기업체와의 계약이나 그 처분에 의하여 재산상의 권리·이익 또는 직위를 취득하거나 타인을 위하여 그 취득을 알선할 수 없다. 이 헌법공포 당시의 국회의원의 임기는 제1항에 의한 국회의 최초의 집회일 전일까지로 한다. 언론·출판에 대한 허가나 검열과 집회·결사에 대한 허가는 인정되지 아니한다. 재판의 심리와 판결은 공개한다. 다만, 심리는 국가의 안전보장 또는 안녕질서를 방해하거나 선량한 풍속을 해할 염려가 있을 때에는 법원의 결정으로 공개하지 아니할 수 있다.
 
-Legimus noluisse verterem at quo, vim autem veniam in, nominavi adipiscing vel ex. Ut est quot melius facilisi, te quodsi singulis cotidieque eos. Ex legere alienum nominati vix. Suas menandri eam at, alia adhuc no eam. Nec at erant postea aliquam, usu no justo malis homero, ad sit periculis efficiendi. Postea definitionem eum in.
+혼인과 가족생활은 개인의 존엄과 양성의 평등을 기초로 성립되고 유지되어야 하며, 국가는 이를 보장한다. 모든 국민은 법률이 정하는 바에 의하여 국가기관에 문서로 청원할 권리를 가진다. 국가원로자문회의의 조직·직무범위 기타 필요한 사항은 법률로 정한다. 연소자의 근로는 특별한 보호를 받는다. 국회의원은 현행범인인 경우를 제외하고는 회기중 국회의 동의없이 체포 또는 구금되지 아니한다. 국회는 정부의 동의없이 정부가 제출한 지출예산 각항의 금액을 증가하거나 새 비목을 설치할 수 없다. 모든 국민은 건강하고 쾌적한 환경에서 생활할 권리를 가지며, 국가와 국민은 환경보전을 위하여 노력하여야 한다.
 
-Civibus complectitur consectetuer at pro, id qui antiopam senserit. Quas justo atqui ad eum, no qui possit animal praesent, qui in amet dicant accommodare. Eu mei erroribus intellegat sententiae, sed te noluisse gloriatur. No sea electram argumentum. Usu at dicta laboramus democritum, id iriure corpora est.
+대법관의 임기는 6년으로 하며, 법률이 정하는 바에 의하여 연임할 수 있다. 국교는 인정되지 아니하며, 종교와 정치는 분리된다. 모든 국민은 근로의 권리를 가진다. 국가는 사회적·경제적 방법으로 근로자의 고용의 증진과 적정임금의 보장에 노력하여야 하며, 법률이 정하는 바에 의하여 최저임금제를 시행하여야 한다. 정당의 설립은 자유이며, 복수정당제는 보장된다. 행정권은 대통령을 수반으로 하는 정부에 속한다. 대통령은 국무회의의 의장이 되고, 국무총리는 부의장이 된다. 공무원은 국민전체에 대한 봉사자이며, 국민에 대하여 책임을 진다. 사회적 특수계급의 제도는 인정되지 아니하며, 어떠한 형태로도 이를 창설할 수 없다.
 
-Atqui apeirian vel ad, liber mentitum cum in, cum quod salutatus no. Eos soluta apeirian interpretaris ea, pro in dicit solet feugiat. Eruditi definiebas duo no, eam nemore oblique deseruisse ex. Qui congue placerat intellegebat et, te movet habemus persecuti eam, est impedit fuisset euripidis te. In sea aliquando theophrastus, ea quodsi euismod sit.
+대통령의 임기연장 또는 중임변경을 위한 헌법개정은 그 헌법개정 제안 당시의 대통령에 대하여는 효력이 없다. 대통령이 제1항의 기간내에 공포나 재의의 요구를 하지 아니한 때에도 그 법률안은 법률로서 확정된다. 정당의 목적이나 활동이 민주적 기본질서에 위배될 때에는 정부는 헌법재판소에 그 해산을 제소할 수 있고, 정당은 헌법재판소의 심판에 의하여 해산된다. 국회의 회의는 공개한다. 다만, 출석의원 과반수의 찬성이 있거나 의장이 국가의 안전보장을 위하여 필요하다고 인정할 때에는 공개하지 아니할 수 있다. 대법관은 대법원장의 제청으로 국회의 동의를 얻어 대통령이 임명한다. 국가는 청원에 대하여 심사할 의무를 진다.
+
+위원은 탄핵 또는 금고 이상의 형의 선고에 의하지 아니하고는 파면되지 아니한다. 대한민국의 경제질서는 개인과 기업의 경제상의 자유와 창의를 존중함을 기본으로 한다. 국무회의는 대통령·국무총리와 15인 이상 30인 이하의 국무위원으로 구성한다. 대통령은 조약을 체결·비준하고, 외교사절을 신임·접수 또는 파견하며, 선전포고와 강화를 한다. 예비비는 총액으로 국회의 의결을 얻어야 한다. 예비비의 지출은 차기국회의 승인을 얻어야 한다. 대통령이 궐위된 때 또는 대통령 당선자가 사망하거나 판결 기타의 사유로 그 자격을 상실한 때에는 60일 이내에 후임자를 선거한다. 국가는 재해를 예방하고 그 위험으로부터 국민을 보호하기 위하여 노력하여야 한다.
 """
     
     var body: some View {
